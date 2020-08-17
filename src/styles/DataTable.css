@@ -1,0 +1,14 @@
+.datatabe .col {
+    cursor: pointer;
+}
+
+.datatabe .col .pointer:after{
+    font-size:80%;
+    content: "";
+    margin-right: 18px;
+}
+.datatabe .col .pointer:hover:after{
+    font-size: 80%;
+    content: "🔻";
+    margin-right: 0;
+}
