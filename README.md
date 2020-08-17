@@ -33,27 +33,22 @@ The user should be able to:
 ## Technologie Used
 
 1. Frontend technologies
-* HTML
-* CSS
-* Bootstrap 
-* Javascript
-* jQuery 
+* HTML5
+* CSS3
+* Bootstrap4
+* React.js
+* Redux
+* Webpack
+
 
 2. Backend technologies
-* Node.js 
-* MongoDB ( mLab)
-* Express 
 * Heroku (Deployment )
 
 ## Screenshots
 
-### Online Image
-<img src="https://github.com/mauricechouam/PWA-Online-Offline-Budget-Tracker/blob/master/public/icons/online2.jpg">
+<img src="https://github.com/mauricechouam/React-Employee-Directory/blob/master/public/img/img.jpg">
 <br>
 <br>
-
-### Offline Image
-<img src="https://github.com/mauricechouam/PWA-Online-Offline-Budget-Tracker/blob/master/public/icons/offline.jpg">
 
 
 
