@@ -100,7 +100,7 @@ const DataArea = () => {
         filteredUsers: results.data.results
       });
     });
-  }, );
+  }, []);
 
   return (
     <DataAreaContext.Provider
