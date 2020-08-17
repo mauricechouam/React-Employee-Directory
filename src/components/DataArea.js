@@ -18,7 +18,6 @@ const DataArea = () => {
       { name: "dob", width: "10%", order: "descend" }
     ]
   });
-
   const handleSort = heading => {
     let currentOrder = developerState.headings
       .filter(elem => elem.name === heading)
@@ -30,7 +29,6 @@ const DataArea = () => {
     } else {
       currentOrder = "descend";
     }
-
     const compareFnc = (a, b) => {
       if (currentOrder === "ascend") {
         // account for missing values
