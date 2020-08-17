@@ -18,6 +18,7 @@ const DataArea = () => {
       { name: "dob", width: "10%", order: "descend" }
     ]
   });
+
   const handleSort = heading => {
     let currentOrder = developerState.headings
       .filter(elem => elem.name === heading)
@@ -29,6 +30,7 @@ const DataArea = () => {
     } else {
       currentOrder = "descend";
     }
+
     const compareFnc = (a, b) => {
       if (currentOrder === "ascend") {
         // account for missing values
@@ -77,7 +79,6 @@ const DataArea = () => {
 
   const handleSearchChange = event => {
     const filter = event.target.value;
-     // eslint-disable-next-line
     const filteredList = developerState.users.filter(item => {
       let values = item.name.first.toLowerCase() + " " + item.name.last.toLowerCase();
       console.log(filter, values)
@@ -99,7 +100,6 @@ const DataArea = () => {
         filteredUsers: results.data.results
       });
     });
-    // eslint-disable-next-line
   }, []);
 
   return (
